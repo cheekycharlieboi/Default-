@@ -1,0 +1,7 @@
+104547c1850e4a4cf633e822bb3c88ed4df017ffc1763709648ade4e2141d2b7  Armstrong-BoM-Editor-Setup-1.7.0.exe
+65c596d924eec3b876596157ff088d92cd8973794510820e4d7ee6aa5a18b18d  Armstrong-BoM-Viewer-Setup-1.7.0.exe
+afe7608f9d1c8ab4e040d2b8ecbce6a27b59c4dec0b3bfda30c83791ed7cfb2b  Uninstall-Armstrong-BoM-Editor.exe
+afe7608f9d1c8ab4e040d2b8ecbce6a27b59c4dec0b3bfda30c83791ed7cfb2b  Uninstall-Armstrong-BoM-Viewer.exe
+d99594cbb98e680219f8136c16dc252ce58d6c72125d77c5da3eab6ba4f653ba  Release-Notes-1.7.0.md
+27907155e7f12755a3045550b7cec7cfc3396043d2849431749b96bb0a6e4da7  Validation-1.7.0.txt
+d2b0fad89f38b7584c260d3b5352f9c18658ac4838ecee1085b5b433076d1b6b  INSTALL.txt
