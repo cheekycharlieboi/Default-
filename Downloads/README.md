@@ -1,6 +1,18 @@
+# Latest: Armstrong BoM 1.8.1
+
+[Download the 1.8.1 unified installer bundle](https://github.com/cheekycharlieboi/Default-/raw/refs/heads/main/Downloads/Armstrong-BoM-Windows-Installer-1.8.1.zip)
+
+Extract the ZIP and run **Armstrong-BoM-Setup-1.8.1.exe**. See [release notes](Release-Notes-1.8.1.md) and [validation](Validation-1.8.1.txt).
+
+Updates include true logout with a single Log In button, combined return/logout, revision engineer labels, financial-column visibility, wider filters, nested line display and B005 labels, settings-only print exemption, and PDFs with the Armstrong banner, complete bucket cost tables/totals and Un-Routed Parts heading.
+
+173 automated checks passed. Native Windows installation/update/uninstall, UNC operation and DPI scaling remain untested; installer is unsigned. Back up shared/project files before updating. Login/PIN and shared-account prerequisites from 1.8.0 still apply.
+
+---
+
 # Armstrong BoM downloads
 
-## Current: 1.8.0 — unified engineer and view-only application
+## Previous: 1.8.0 — unified engineer and view-only application
 
 [Download Armstrong BoM 1.8.0](https://github.com/cheekycharlieboi/Default-/raw/refs/heads/main/Downloads/Armstrong-BoM-Windows-Installer-1.8.0.zip)
 

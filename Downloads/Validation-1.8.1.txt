@@ -1,0 +1,12 @@
+ARMSTRONG BoM 1.8.1
+
+173 automated checks passed under Mono 6.12/Xvfb:
+43 baseline engine + 3 focused engine/PDF + 9 1.8 engine + 12 retained GUI + 45 prior regression + 10 currency + 35 integration + 16 new 1.8.1 checks.
+
+New checks cover B005 identity and inherited-routing explanation, revision dropdown format, combined return/logout, settings-only versus quantity/routing revision requirements, Cost unit visibility, nested-cell indentation/dash, widened dropdowns at1080/1500, session clearing/single Log In button, and real banner embedding.
+
+Independent PDF text/bounding-box checks verify every configured bucket300-309 appears, including empty buckets; table totals cost6.00/budget170.00/remaining164.00; Un-Routed Parts replaces Routing0; project title lies below the banner. PDF rendering and 1080/1500 workspace screenshots inspected. A3 portrait pagination remains covered by retained tests.
+
+Unified installer payload is independently extracted and all SHA256 hashes checked; packaged binaries match the tested build. Outer bundle checksums are verified.
+
+Native Windows setup/update/uninstall, UNC permissions/locking, shortcuts and DPI scaling remain untested. Installer is unsigned. The historical LN list still requires an updated priced workbook for columnsD-G. No automatic rate fetching; manual-rate defaults dated2026-11-02 are unchanged.
