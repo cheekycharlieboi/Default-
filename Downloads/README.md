@@ -1,4 +1,16 @@
-# Latest: Armstrong BoM 1.8.1
+# Latest: Armstrong BoM 1.8.2
+
+[Download 1.8.2](https://github.com/cheekycharlieboi/Default-/raw/refs/heads/main/Downloads/Armstrong-BoM-Windows-Installer-1.8.2.zip)
+
+Extract and run **Armstrong-BoM-Setup-1.8.2.exe**. See [release notes](Release-Notes-1.8.2.md) and [validation](Validation-1.8.2.txt).
+
+Updates: B005 parent heading/value alignment; taller B042; safe locked-PDF Retry/Cancel; clear continuation headings; selected summary on separate sheet (default on); named routing headings; actual return/logout button and background-restore protection. 191 automated checks passed. Installer payload hashes verified. Native Windows/UNC/DPI acceptance remains untested; installer unsigned.
+
+Back up projects/shared files before updating. Shared-login and manual-rate prerequisites from1.8.0 remain unchanged. Previous installers are retained below for recovery.
+
+---
+
+# Previous: Armstrong BoM 1.8.1
 
 [Download the 1.8.1 unified installer bundle](https://github.com/cheekycharlieboi/Default-/raw/refs/heads/main/Downloads/Armstrong-BoM-Windows-Installer-1.8.1.zip)
 

@@ -1,0 +1,11 @@
+ARMSTRONG BoM 1.8.2
+
+191 automated checks passed:43 baseline engine +3 focused engine/PDF +9 engine +12 retained GUI +45 earlier regression +10 currency +35 integration +16 1.8.1 +18 new1.8.2 checks.
+
+New checks: B005 left/right heading geometry; B042 default size/control fit/no vertical software scrollbar; actual return-button Click after discarding edits; logged-out workspace guard; Retry/Cancel UI and behaviour; unrelated errors; separate-summary default; named routing headings; real locked PDF cancel/preservation and release/retry/replacement; temporary-file cleanup.
+
+Independent PDF extraction/geometry: four pages, three item-table headers below project info, cost summary only on final separate page; Routing10 - Mechanical Assembly heading.
+
+Installer payload extraction, SHA256 verification and exact build-binary comparison are performed before publication. ZIP checksum verification is included.
+
+Limits: tests use Linux/Mono/Xvfb. Native Windows install/update/uninstall, UNC/shared-server behaviour and DPI scaling remain untested. Installer unsigned.
