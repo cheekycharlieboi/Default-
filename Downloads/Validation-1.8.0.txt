@@ -1,0 +1,21 @@
+ARMSTRONG BoM 1.8.0
+
+Executed under Mono 6.12 and Xvfb:
+43 baseline engine checks
+3 focused engine/PDF checks
+9 new 1.8 engine checks (currency/link metadata, notes, bucket aggregation and A3 pagination)
+12 retained GUI checks
+45 retained 1.7 regression checks, with updated expectations for the requested bucket/notes behaviour
+10 currency/manual-entry GUI and engine checks
+35 new 1.8 integration checks (logins/password reset, concurrent save protection, roles, routing, revisions, attribution, notes and history)
+TOTAL: 157 checks passed.
+
+History lookup benchmark: 10 revisions x 50,000 rows (500,000 saved rows), approximately 30 ms in this environment. This is not a Windows/server performance guarantee.
+
+Independent PDF checks: A3 portrait metadata, pagination, extracted headings, component quantities and GBP25.00 bucket total. Long output includes every one of 160 test part numbers exactly once.
+
+Packaging: unified installer contains the tested Engine and Editor executables, source, assets, catalogue and dated default FX data; no separate Viewer executable/installer. Every embedded payload file is SHA-256 checked after installer extraction. Outer ZIP and distributed files have checksum verification.
+
+Limits: Linux/Mono/Xvfb only. Native Windows setup, registry/shortcuts, update/uninstall/force-close, UNC/server permissions and locking, and DPI scaling remain untested. The prior reported Windows sharing error was not reproduced; bounded retries, atomic version-check/write and clearer failure handling were tested locally.
+
+The original supplied LN workbook has 275,763 records but no D-G price/currency/link data. Load an updated priced workbook for these fields. Default FX source is the public Currency API dataset dated 2026-11-02, not an official ECB feed. Manual input replaces automatic updates.
