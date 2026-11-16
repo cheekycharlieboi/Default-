@@ -1,3 +1,11 @@
+## Source code — version 1.8.2
+
+[Download the source ZIP (12.7 MB)](https://github.com/cheekycharlieboi/Default-/raw/refs/heads/main/Downloads/Armstrong-BoM-Source-1.8.2.zip)
+
+Contains source, tests, Windows build and installer packaging scripts, assets, runtime data and README-SOURCE.md. Source recovered from the verified published 1.8.2 installer; checksum manifest included. This is under30MB and excludes personal project examples and engineer account files. Historical test evidence is included; no fresh application test run is claimed for this export.
+
+---
+
 # Latest: Armstrong BoM 1.8.2
 
 [Download 1.8.2](https://github.com/cheekycharlieboi/Default-/raw/refs/heads/main/Downloads/Armstrong-BoM-Windows-Installer-1.8.2.zip)
